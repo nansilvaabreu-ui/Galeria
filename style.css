@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    height: 90vh;
+    width: 50vw;
+    background-color: rgb(45, 148, 227);
+    display: flex;
+    gap:200px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.caixa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    flex-direction: column;
+
+    
+}
+
+.pai{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.Titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+}
+
+img{
+    width: 80%;
+}
+
+p{
+    background-color: blue;
+    color: white;
+    text-align: start;    
+}
